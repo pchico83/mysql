@@ -3,3 +3,12 @@
 echo "BEGIN ENV"
 env
 echo "END ENV"
+
+echo "BEGIN INFO"
+docker info
+echo "END INFO"
+
+echo "BEGIN VERSION"
+docker version
+echo "END VERSION"
+
