@@ -25,4 +25,4 @@ mysql -u"$1" -p"$2" < "$3"
 echo "=> Stopping MySQL Server"
 mysqladmin -u"$1" -p"$2" shutdown
 
-echo "=> Done!"
+echo "==> Done!"
